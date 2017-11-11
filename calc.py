@@ -5,3 +5,7 @@ def wind_speed(u, v, w):
 Woohoo I made a change!
 
 hi
+
+
+def get wind_direction(u, v):
+	return 90 - atan2(u,v)
